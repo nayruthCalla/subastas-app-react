@@ -6,7 +6,7 @@ import Footer from "./Layouts/Footer";
 import Products from "./Pages/Products/Products";
 import ProductDetail from "./Pages/ProductDetail/ProductDetail";
 import About from "./Pages/About/About";
-import NotFound from "./Pages/NotFound/NotFound";
+import NotFound from "./Pages/NotFound/P404";
 // import { useStateProduct } from "../context/Product/ProductContext";
 
 const App = () => {
