@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300;400&display=swap');
+
+:root{
+    --principal-color : #2C2C2C;
+    --secondary-color : #EFEFEF;
+    --succes-color : #93C54B;
+    --alert-color : #D9534F;
+    --boring-color : #797770;
+    --dark-color : #3E3F3A;
+    --light-color : #EFEFEF;
+    --warning-color : #F47C3C;
+    --light-blue: rgba(41, 171, 224, 0.08);
+
+    --principal-font : 'Teko';
+    --secondary-font : 'Tinos', serif;
+
+    --principal-font-size : 5rem;
+    --secondarey-font-size : 1.8rem;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+*::-webkit-scrollbar {
+  -webkit-appearance: none;
+}
+
+*::-webkit-scrollbar:vertical {
+  width:10px;
+
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color:  var(--dark-color);
+  border-radius: 20px;
+  border: 2px solid #EFF0F6;
+
+}
+
+*::-webkit-scrollbar-track {
+  border-radius: 20px;
+
+}
+
+*::-webkit-scrollbar-track {
+
+  background:var(--light-color) ;
+  border-radius: 20px;
+
+}
+
+html {
+  font-size: 62.5%;
+  min-height: 100vh;
+
+}
+
+#root{  
+  display: flex;
+	height: 100vh;
+	flex-direction: column;
+}

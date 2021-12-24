@@ -1,0 +1,321 @@
+/*Layouts*/
+
+/*++++++++ HEADER+++++++++*/
+.headerConatiner {
+  background: var(--principal-color);
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  width: 100%;
+
+}
+.headerTitle{
+  font-family: var(--principal-font);
+  color: var(--secondary-color);
+  font-size: var(--principal-font-size);
+  font-style: normal;
+  font-weight: normal;
+  line-height: 72px;  
+}
+.headerTitle span{  
+  color: var(--succes-color);
+}
+.headerNav { 
+  width: 100%; 
+}
+.headerNav ul li{ 
+  color: #dad5d5;
+  font-size: 2rem;
+  font-family: var(--principal-font);
+  list-style: none;
+  text-decoration: none;
+  border-top: 1px solid rgba(255, 255, 255, 0.466);
+  padding: 0.7rem;
+  font-weight: bold;
+  text-align: center;
+  font-style: normal;
+  font-weight: normal; 
+}
+.headerNav ul li:hover{
+  background: #87888a8d;
+  border-radius: 0.3rem;
+}
+/*++++++++ FOOTER+++++++++*/
+/*footer styles*/
+
+.footercont{
+  background:#181818;
+  width: 100%;
+  color: #726e6e;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.5rem;
+}
+.icon-rrss{
+  height: 2rem;
+  width: 2rem;
+  margin-left: 1rem;    
+}
+.footercont ul li{
+  text-decoration: none;
+  list-style: none;
+  text-align: center;
+}
+.footercont ul li a {
+  text-decoration: none;
+  color: #726e6e;
+  font-size: 1.5rem;
+  padding:1rem;
+}
+/*++++++++ BUTTON+++++++++*/
+.generalButton{
+  background: var(--succes-color);
+  border-radius: 0.5rem;
+  border: none;
+  font-family: var(--principal-font);
+  font-size:3rem;
+  text-align: center;
+  font-style: normal;
+  font-weight: normal;
+  color:var(--secondary-color);
+  padding: 0.5rem;
+  width: 100%;
+}
+.generalButtonColor{
+  composes: generalButton;
+  background: var(--alert-color);
+}
+/*++++++++ LINE +++++++++*/
+.DividingLineCont{
+  background: rgba(121, 119, 112, 0.35);;
+  height: 1px;
+  margin-top: 1rem;
+}
+
+/*++++++++ RATING +++++++++*/
+.rateContainer{
+  display: flex;
+  align-items: center;
+  margin: 2rem 0 0 3.5rem;
+}
+.rateCont{
+  background: var(--succes-color);
+  display: flex;
+  border-radius: 10px;
+  padding: 0 1.2rem 0 1.2rem;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.rateText{
+  font-family: var(--principal-font);
+  color: var(--secondary-color);
+  font-size: 2.2rem;
+  font-style: normal;
+  font-weight: normal;
+}
+.starIcon{
+  width: 1.3rem;
+  height: 1.3rem;
+  color: var(--secondary-color);
+  margin-top: 0.5rem;
+}
+.rateCount{
+  font-family: var(--secondary-font );
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.6rem;
+  line-height: 18px;
+  color: rgba(62, 63, 58, 0.51);
+  margin-left: 0.7rem;
+}
+
+/*Main*/
+.landingCont{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex:1;
+}
+.fondoMain{
+  width:100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.container{
+  composes:landingCont;
+  padding:0 2rem 0 2rem;
+}
+.landingText{
+  margin: 2rem 0 1rem 0;
+  font-family: var(--principal-font);
+  color: rgba(0, 0, 0, 0.54);
+  font-size: 2.3rem;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 33px;
+}
+.pagoImg{
+  width:70%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  margin-bottom: 3rem;
+}
+
+/*++++++++ Products +++++++++*/
+.productsContCard{
+  background: #FFFFFF;
+  margin: 0;
+  padding: 1rem 0 1rem 0;
+  align-items: stretch;
+  margin-bottom: 2rem;
+}
+.title{
+  font-family: var(--principal-font);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.3rem;
+  line-height: 33px;
+  color: rgba(0, 0, 0, 0.54);
+  background: #FFFFFF;
+  padding: 1rem;
+}
+.productsCont{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  background:#EFEFEF;
+  flex-wrap: 2rem;
+}
+.headerCont{
+  display: flex;
+  margin: 2rem 0 2rem 2rem;
+}
+.timeCont{
+  display: flex;  
+}
+.timeIcon{
+  color: var(--alert-color);
+  width: 3rem;
+  height: 3rem;
+  margin: 0 1rem 0 0;  
+}
+.timeText{
+  font-family: var(--principal-font);
+  color: var(--alert-color);
+  font-size: 4rem;
+  line-height: 37px;
+  font-style: normal;
+  font-weight: normal;
+  margin: 0 0.5rem 0 0;  
+}
+.points{
+  composes :timeText;
+}
+.text{
+  line-height: 5px;
+  font-family: var(--secondary-font);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.4rem;
+  color: rgba(62, 63, 58, 0.51);
+  text-align: center;
+}
+.cardProduct{
+  margin: 0 2rem 0 2rem;
+}
+.productImageCont{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 0 1rem 0;
+}
+.productImage{  
+  max-width: 60%;
+  height: 20rem;
+}
+.productTitl{
+  font-family: var(--secondary-font);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.8rem;
+  line-height: 21px;
+  color: #3E3F3A;
+  margin: 1rem 0 0 3.5rem;
+}
+.productPrice{
+  margin: 0 0 0 3.5rem;
+  font-family: var(--principal-font);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 3rem;
+  line-height: 43px;
+  color: #000000;
+}
+.productPrice span{
+  margin-right: 0.5rem;
+}
+.buttonCont{
+  margin: 1.7rem 5.2rem 1rem 5.2rem;
+}
+.cardTemplateCont{
+  width: 100%;
+  margin: 2rem 0 2rem 0;
+  gap: 2rem;  
+}    
+@media screen and (min-width: 762px) {
+  /*header styles */
+  .headerConatiner{
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 3rem 0 3rem;
+  }
+  .headerNav {
+    width: 50%;
+    
+  }
+  .ulContainer{
+    display: flex;
+    justify-content: flex-end;    
+  }
+  .headerNav ul li{
+    border: none;
+   font-size: 2.7rem;
+  }
+  /*footer styles */
+  .footercont{
+  }
+  .footercont ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .footercont ul li {
+  }
+  /*products cards styles */
+  .cardTemplateCont{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .productsContCard{
+    width: 45%;
+    border-radius:0.5rem;
+  }
+  .productTitlCont{
+    min-height: 7rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+   .productsContCard{
+    width: 30rem;
+  }
+  .cardTemplateCont{
+    
+  }
+}
