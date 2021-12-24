@@ -11,7 +11,7 @@ const Rating = ({rate,count}) => {
         <AiFillStar/>
       </IconContext.Provider>      
     </div>
-    <p className = {styles.rateCount}>{count} Evaluations</p>
+    <p className = {styles.rateCount}>{count} Evaluaciones</p>
     </div>
   )
 }

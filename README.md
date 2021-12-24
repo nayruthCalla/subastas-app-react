@@ -1,70 +1,83 @@
-# Getting Started with Create React App
+# LOKiERO 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Índice
 
-## Available Scripts
+- [LOKiERO](#lokiero)
+  - [Índice](#índice)
+  - [1. Preámbulo](#1-preámbulo)
+  - [2. Definición del proyecto](#2-definición-del-proyecto)
+    - [2.1 Perfil de usuario](#21-perfil-de-usuario)
+    - [2.2 Planteamiento del problema](#22-planteamiento-del-problema)
+  - [3. Resolución del problema](#3-resolución-del-problema)
+  - [4. Prototipos y recursos](#4-prototipos-y-recursos)
+  - [5. Requerimientos del proyecto](#5-requerimientos-del-proyecto)
+  - [6. Acceso a la plataforma](#6-acceso-a-la-plataforma)
+  - [7. Recursos](#7-recursos)
+  - [8. Tecnologías utilizadas](#8-teconologías-utilizadas)
+  - [9. Instalación](#9-instalación)
+  
+## 1. Preámbulo
+LOKiERO es una aplicacion de subastas online donde cada usuario tendra la oportunidad de conseguir su producto deseado.
+La aplicación es parte de un reto de Make it Real.
 
-In the project directory, you can run:
+## 2. Definición del Proyecto
 
-### `npm start`
+### 2.1 Perfil de Usuario
+Los usuarios son personas que buscan productos de su agrado dispuestos a competir por un precio acequible.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 2.2 Planteamiento del problema
+Los usuarios testeados saben los precios relativos de los productos en el mercado, sin embargo en la aplicacion se podra competir por un precio justo para cada usuario.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 3. Resolución del problema
+La aplicacion permitira a los usuarios navegar a traves de la aplicacion buscar y listar los productos, y por cada producto el usuario podra competir y obtenerlo.
+## 4. Prototipos y recursos
 
-### `npm test`
+* Prototipo alta fidelidad
+ 
+![MAIN PAGE](https://github.com/danielfelipeq/create-readme/blob/main/imagen-1.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![MAIN PAGE](https://github.com/danielfelipeq/create-readme/blob/main/imagen-2.png)
 
-### `npm run build`
+![MAIN PAGE](https://github.com/danielfelipeq/create-readme/blob/main/imagen-3.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* Organización ([Trello](https://trello.com/b/YGiU1FFL/data-lovers))
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 5. Requerimientos del proyecto
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+✅ La aplicación debe tener un menú que le permita al usuario navegar entre páginas.
 
-### `npm run eject`
+✅ La aplicacion listara la información del producto.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+✅ Los productos deberan tener un limite de tiempo para obtener la oferta.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+✅ La aplicacion sera diseñada first-mobile.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+✅ El proyecto debe tener configurado ESLint y el Prettier y los archivos no deben tener problemas con estos.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 6. Acceso a la Plataforma
 
-## Learn More
+## 7. Recursos
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+✅ Se uso Flexbox CSS.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+✅ El proyecto tiene configurado ESLint y el Prettier.
 
-### Code Splitting
+✅ Se implemento módulos de CSS.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+✅ La API utilizada para este reto es [Fake Store API](https://fakestoreapi.com/).
 
-### Analyzing the Bundle Size
+✅ Diseño First mobile
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 8. Tecnologías utilizadas
 
-### Making a Progressive Web App
+ * [React](https://es.reactjs.org/)
+ * [React Router](https://reactrouter.com/)
+ * [Styled Components](https://styled-components.com/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 9. Instalación
+1) Tener un 📝 editor de texto.
+2) Si usas un sistema operativo "UNIX-like", como GNU/Linux o MacOS, ya tienes una shell (terminal) instalada por defecto (y probablemente git también 🐧). Si usas Windows puedes usar Git bash.
+3) Haz tu propio 🍴 fork del repositorio.
+4) ⬇️ Clona tu fork a tu computadora (copia local).
+5) 📦 Instala las dependencias del proyecto con el comando npm install, siempre que ya tengas instalado [node.js](https://nodejs.org/es/).
+6) 🚀 npm run start

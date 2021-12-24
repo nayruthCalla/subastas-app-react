@@ -1,5 +1,6 @@
 import styles from '../../../../css/styles.module.css';
-import Rating from '../../../Layouts/Rating'
+import Rating from '../../../Layouts/Rating';
+import imgProduct from '../../../../assets/defaultPrd.png'
 
 const CardBody = ({productImg, rate, productTitle, price, count}) => {
   return (
@@ -17,5 +18,11 @@ const CardBody = ({productImg, rate, productTitle, price, count}) => {
     </article> 
   )
 }
-
+CardBody.defaultProps = {
+  productImg: imgProduct,
+  rate: 0,
+  productTitle : "Producto",
+  price: 0,
+  count: 0,
+};
 export default CardBody

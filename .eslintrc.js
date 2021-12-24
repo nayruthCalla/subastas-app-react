@@ -21,6 +21,7 @@ module.exports = {
     "react/jsx-uses-react": 0,
     "react/no-array-index-key": "off",
     "react/jsx-no-constructed-context-values": "off",
+    "no-use-before-define": "off",
     "react/function-component-definition": [
       2,
       { namedComponents: "arrow-function" },
