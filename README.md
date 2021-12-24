@@ -1,5 +1,6 @@
-# LOKiERO 
-* 👀 Revisa la [DEMO](https://vibrant-wright-0eedef.netlify.app/) 
+![image](https://user-images.githubusercontent.com/47750079/147317699-4b082c89-6088-4bf3-ad3f-7743251fd1b3.png)
+
+### ❤️ Revisa la [DEMO](https://vibrant-wright-0eedef.netlify.app/) 👀 ❤️
 
 ## Índice
 
@@ -35,10 +36,8 @@ La aplicacion permitira a los usuarios navegar a traves de la aplicacion buscar 
 
 * #### Organización del Proyecto ([GitHub Proyects](https://github.com/nayruthCalla/subastas-app-react/projects/1))
 * Prototipo alta fidelidad
- 
-![MAIN PAGE](https://github.com/danielfelipeq/create-readme/blob/main/imagen-1.png)
-![MAIN PAGE](https://github.com/danielfelipeq/create-readme/blob/main/imagen-2.png)
-![MAIN PAGE](https://github.com/danielfelipeq/create-readme/blob/main/imagen-3.png)
+
+![image](https://user-images.githubusercontent.com/47750079/147318911-b3d018e2-8a2a-498a-89e8-9b07ab55882e.png)
 
 
 ## 5. Requerimientos del proyecto
@@ -82,3 +81,9 @@ La aplicacion permitira a los usuarios navegar a traves de la aplicacion buscar 
 4) ⬇️ Clona tu fork a tu computadora (copia local).
 5) 📦 Instala las dependencias del proyecto con el comando npm install, siempre que ya tengas instalado [node.js](https://nodejs.org/es/).
 6) 🚀 npm run start
+
+![image](https://user-images.githubusercontent.com/47750079/147318538-e55b610b-918e-4ed7-a4c3-9e0c96f489e6.png)
+![image](https://user-images.githubusercontent.com/47750079/147318587-87660328-2dce-4ead-bd9f-972151e450b0.png)
+![image](https://user-images.githubusercontent.com/47750079/147319098-11ace94e-4463-4357-b1e6-6a0fbbf2cb08.png)
+
+
