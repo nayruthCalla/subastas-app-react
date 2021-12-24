@@ -33,13 +33,13 @@ Los usuarios testeados saben los precios relativos de los productos en el mercad
 La aplicacion permitira a los usuarios navegar a traves de la aplicacion buscar y listar los productos, y por cada producto el usuario podra competir y obtenerlo.
 ## 4. Prototipos y recursos
 
+* #### Organización del Proyecto ([GitHub Proyects](https://github.com/nayruthCalla/subastas-app-react/projects/1))
 * Prototipo alta fidelidad
  
 ![MAIN PAGE](https://github.com/danielfelipeq/create-readme/blob/main/imagen-1.png)
 ![MAIN PAGE](https://github.com/danielfelipeq/create-readme/blob/main/imagen-2.png)
 ![MAIN PAGE](https://github.com/danielfelipeq/create-readme/blob/main/imagen-3.png)
 
-* Organización ([GitHub Proyects](https://github.com/nayruthCalla/subastas-app-react/projects/1))
 
 ## 5. Requerimientos del proyecto
 
