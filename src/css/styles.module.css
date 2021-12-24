@@ -529,6 +529,15 @@
   line-height: 4rem;
 }
 /**not found*/
+.notFoundCont{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+  width: 100%;
+  padding: 2rem;
+  flex:1;
+}
 .notFoundImg{
   width: 100%;
 }
@@ -547,6 +556,12 @@
   font-size: 60px;
   line-height: 86px;
   color: #797770;
+}
+.notTitle{
+  display:flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
 }
 /*++++++++ MEDIA QUERY ++++++++*/
 @media screen and (min-width: 762px) {
@@ -696,7 +711,12 @@
  .titleAbout{
    font-size:6rem;
  }
-  
+ .notFoundImg{
+  width: 37%;
+}
+.notFoundCont{
+  flex-direction: row;
+}
 }
 .contWelcome figure{
   max-width: 25%;
