@@ -528,6 +528,26 @@
   color: transparent;
   line-height: 4rem;
 }
+/**not found*/
+.notFoundImg{
+  width: 100%;
+}
+.notFoundNum{
+  font-family: Teko;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 110px;
+  line-height: 158px;
+  color: rgba(121, 119, 112, 0.46);
+}
+.notFoundText{
+  font-family: Teko;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 86px;
+  color: #797770;
+}
 /*++++++++ MEDIA QUERY ++++++++*/
 @media screen and (min-width: 762px) {
   /*header styles */

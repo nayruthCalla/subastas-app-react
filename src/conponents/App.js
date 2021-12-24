@@ -6,6 +6,7 @@ import Footer from "./Layouts/Footer";
 import Products from "./Pages/Products/Products";
 import ProductDetail from "./Pages/ProductDetail/ProductDetail";
 import About from "./Pages/About/About";
+import NotFound from "./Pages/NotFound/NotFound";
 // import { useStateProduct } from "../context/Product/ProductContext";
 
 const App = () => {
@@ -24,6 +25,7 @@ const App = () => {
           element={<ProductDetail productDetail={dataD} />}
         />
         <Route path="/about" element={<About />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />
     </>
