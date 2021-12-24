@@ -37,7 +37,7 @@ La aplicacion permitira a los usuarios navegar a traves de la aplicacion buscar 
 * #### Organización del Proyecto ([GitHub Proyects](https://github.com/nayruthCalla/subastas-app-react/projects/1))
 * Prototipo alta fidelidad
 
-![image](https://user-images.githubusercontent.com/47750079/147318911-b3d018e2-8a2a-498a-89e8-9b07ab55882e.png)
+![image](https://user-images.githubusercontent.com/47750079/147325236-33854715-9042-465b-9b05-00c48638f71e.png)
 
 
 ## 5. Requerimientos del proyecto
