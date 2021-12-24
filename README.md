@@ -1,4 +1,5 @@
 # LOKiERO 
+* 👀 Revisa la [DEMO](https://vibrant-wright-0eedef.netlify.app/) 
 
 ## Índice
 
@@ -40,7 +41,7 @@ La aplicacion permitira a los usuarios navegar a traves de la aplicacion buscar 
 
 ![MAIN PAGE](https://github.com/danielfelipeq/create-readme/blob/main/imagen-3.png)
 
-* Organización ([Trello](https://trello.com/b/YGiU1FFL/data-lovers))
+* Organización ([GitHub Proyects](https://github.com/nayruthCalla/subastas-app-react/projects/1))
 
 ## 5. Requerimientos del proyecto
 
@@ -55,6 +56,8 @@ La aplicacion permitira a los usuarios navegar a traves de la aplicacion buscar 
 ✅ El proyecto debe tener configurado ESLint y el Prettier y los archivos no deben tener problemas con estos.
 
 ## 6. Acceso a la Plataforma
+
+* 👀 Revisa la [DEMO](https://vibrant-wright-0eedef.netlify.app/) 
 
 ## 7. Recursos
 
@@ -72,7 +75,7 @@ La aplicacion permitira a los usuarios navegar a traves de la aplicacion buscar 
 
  * [React](https://es.reactjs.org/)
  * [React Router](https://reactrouter.com/)
- * [Styled Components](https://styled-components.com/)
+ * [Css Module](https://github.com/css-modules/css-modules)
 
 ## 9. Instalación
 1) Tener un 📝 editor de texto.
