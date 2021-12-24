@@ -4,10 +4,12 @@ import styles from '../../../css/styles.module.css';
 import CardTemplate from './CardTemplate/CardTemplate';
 import {randomDate} from '../../../utils/utilities';
 import icon from '../../../assets/papa-noel.png';
+import Loading from '../../Layouts/Loading/Loading'
 
 const Products = ({setDataD}) => {
  
-  const [products, setProducts] = useState([]);  
+  const [products, setProducts] = useState([]);
+  const [loading, setLoading] = useState(false);
   
   useEffect (()=>{
     
@@ -15,6 +17,7 @@ const Products = ({setDataD}) => {
       try{
         const res = await axios.get('products');
         setProducts(res.data);
+        setLoading(true);
        // console.log(res.data)
       }catch(e){
        // console.log(e)
@@ -34,7 +37,9 @@ const Products = ({setDataD}) => {
         </figure>        
       </div>
       <div className = {styles.cardTemplateCont}>
-        {products.map(
+        {!loading
+          ?<Loading />
+          :products.map(
           ({
             image,
             rating,
