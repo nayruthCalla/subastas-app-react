@@ -36,9 +36,7 @@ La aplicacion permitira a los usuarios navegar a traves de la aplicacion buscar 
 * Prototipo alta fidelidad
  
 ![MAIN PAGE](https://github.com/danielfelipeq/create-readme/blob/main/imagen-1.png)
-
 ![MAIN PAGE](https://github.com/danielfelipeq/create-readme/blob/main/imagen-2.png)
-
 ![MAIN PAGE](https://github.com/danielfelipeq/create-readme/blob/main/imagen-3.png)
 
 * Organización ([GitHub Proyects](https://github.com/nayruthCalla/subastas-app-react/projects/1))
