@@ -1,6 +1,7 @@
 ![image](https://user-images.githubusercontent.com/47750079/147317699-4b082c89-6088-4bf3-ad3f-7743251fd1b3.png)
 
 ### ❤️ Revisa la [DEMO](https://vibrant-wright-0eedef.netlify.app/) 👀 ❤️
+[![Netlify Status](https://api.netlify.com/api/v1/badges/f7224016-af72-4850-addf-7d723c847ffc/deploy-status)](https://app.netlify.com/sites/vibrant-wright-0eedef/deploys)
 
 ## Índice
 
