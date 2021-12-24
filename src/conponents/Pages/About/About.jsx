@@ -42,7 +42,8 @@ const About = () => {
       <div className={ styles.aboutDown}>
         <h2  className={styles.textQuestion}>¿3 cosas que hayas aprendido en el bootcamp de MakeItReal?</h2>
         <p className={styles.textAbout}>
-        Cuando me hice esta pregunta no podria resumir en 3 cosas, siento que he aprendido en cada experienci, junto a Cristian(Coach) y mis compañerxs, muy feliz de estar en el bootcamp 😊
+        Cuando me hice esta pregunta no podria resumir en 3 cosas, siento que he aprendido en cada experiencia, junto a Cristian(Coach) y mis compañerxs, muy feliz de estar en el bootcamp 😊.
+        Pero bueno aquí van las tres cosas:
         </p>
         <ul className={styles.ulTextQuestion}>
           <li className={styles.textAbout}>Durante este tiempo que he estado en el bootcamp de MakeItReal estoy aprendiendo React (Front-end)  y Node.js (Back-end)  con un excelente coach  @Cristian Moreno.</li>
@@ -50,10 +51,10 @@ const About = () => {
           <li className={styles.textAbout}>Y el nivel de ingles ando mejorando con la plataforma y lxs coachs</li>
         </ul>
       </div>
-      <div className = {styles.finalMessCont}>
+      <div className = {styles.finalMessCont}>  
+      <img src = {tree} className={styles.treeIcon} alt = ""/>      
+        <h2 className={styles.titleAbout}>¡FELÍZ NAVIDAD!</h2>   
         <img src = {nieve} className={styles.nieveIcon} alt = ""/>
-        <h2 className={styles.titleAbout}>¡FELÍZ NAVIDAD!</h2>        
-        <img src = {tree} className={styles.treeIcon} alt = ""/>
       </div>
       <h3 className={styles.thankText}>Gracias por llegar hasta aquí</h3>
     </div>

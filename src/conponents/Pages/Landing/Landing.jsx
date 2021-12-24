@@ -3,7 +3,9 @@ import { Link } from "react-router-dom";
 import styles from '../../../css/styles.module.css';
 import Button from '../../Layouts/Button';
 import pago from '../../../assets/pago.png';
-// import navidad from '../../../assets/recort.png';
+import mune from '../../../assets/muneco.png';
+import bid from '../../../assets/bid.png';
+import bag from '../../../assets/bag.png';
 import navidad from '../../../assets/navidad-as.png';
 
 
@@ -36,13 +38,29 @@ const Landing = () => {
           </div>
       </div>      
       <div className = {styles.container}>
-        <h2 className = {styles.landingText}>PRODUCTOS EN SUBASTA, AHORA A UN SOLO CLICK!</h2>
-        <img src = {pago} className ={styles.pagoImg} alt = ""/>
+      <figure className ={styles.iconLandingCont}>
+          <h2 className = {styles.landingText}>
+            En esta navidad aprovecha los días de rebaja
+          </h2>
+          <img src = {bag} className ={styles.iconLanding} alt = ""/>          
+        </figure>       
+        <figure className ={styles.iconLandingCont}>
+          <img src = {bid} className ={styles.iconLanding} alt = ""/>    
+          <h2 className = {styles.landingText}>Proximamente LOKiERO podras ofertar desde la comodidad de tu hogar</h2>      
+        </figure>
+        <figure className ={styles.iconLandingCont}>
+          <h2 className = {styles.landingText}>Felices fiestas te desea LOK<span className = {styles.green}>i</span>ERO</h2>
+          <img src = {mune} className ={styles.iconLanding} alt = ""/>                    
+        </figure>
+        <figure className ={styles.iconLandingContBtn}>
+        <h2 className = {styles.landingText}>Productos en subasta, ahora a un solo click</h2>    
+        <img src = {pago} className ={styles.pagoImg} alt = ""/>               
         <div className = {styles.buttonContLang}>
           <Link to = "/products">
             <Button text = "IR A COMPRAR"/>
           </Link>          
-        </div>        
+        </div>
+        </figure>     
       </div>
     </section>
   )

@@ -1,8 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Lobster&family=Waterfall&display=swap');
 /*Layouts*/
 
 /*++++++++ HEADER+++++++++*/
 .headerConatiner {
-  background: var(--principal-color);
+  background: var(--principal-color); 
   display: flex;
   flex-direction: column;
   align-items:center;
@@ -209,12 +210,14 @@
 }
 .landingText{
   margin: 2rem 0 1rem 0;
-  font-family: var(--principal-font);
-  color: rgba(0, 0, 0, 0.54);
-  font-size: 2.3rem;
+  /* font-family: 'Waterfall', cursive; */
+  /* font-family: 'Lobster', cursive; */
+  font-family: 'Indie Flower', cursive;
+  color: rgb(167 55 55 / 41%);
+  font-size: 2.6rem;
   font-style: normal;
   font-weight: normal;
-  line-height: 33px;
+  line-height: 27px;
 }
 .pagoImg{
   width:70%;
@@ -233,10 +236,27 @@
 .buttonContLang a{
   width: 100%;
 }
-
+.iconLandingCont{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem 2rem 0 2rem;
+}
+.iconLandingContBtn{
+  display: flex;
+  flex-direction:column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem 2rem 0 2rem;
+}
+.iconLanding{
+  width: 40%;
+}
 /*++++++++ Products +++++++++*/
 .contWelcome{
-  background: #FFFFFF;
+  background: #fff;
   display: flex;
   padding:2rem;
   justify-content: center;
@@ -250,11 +270,20 @@
 .imgProd{
   width: 100%;
 }
+.titleProdWel{
+  font-family: var(--principal-font);
+  font-size:5rem;
+  color: var(--succes-color);
+}
+.title{
+  font-family: var(--principal-font);
+  font-size: 4rem;
+  color: var(--alert-color);
+}
 .titlePr{
   font-family: var(--principal-font);
   color: var(--succes-color);
   font-size:2.5rem;
-  margin-left: 3rem;
 }
 .productsContCard{
   background: #FFFFFF;
@@ -263,11 +292,7 @@
   align-items: stretch;
   margin-bottom: 2rem;
 }
-.title{
-  font-family: var(--principal-font);
-  font-size: 4rem;
-  color: rgba(0, 0, 0, 0.54);
-}
+
 .productsCont{
   display: flex;
   flex-direction: column;
@@ -424,7 +449,6 @@
   display: flex;
   flex-direction: column;
   flex: 1;
-  background: #000000;
   padding: 2.5rem 3.5rem 0 3.5rem;
   justify-content: center;
   align-items: center;
@@ -438,7 +462,8 @@
   line-height: 143px;
   text-align: center;
   /* background: -webkit- */
-  background: linear-gradient(180deg, #A54584 0%, #EA8841 65.62%, #BC5467 94.79%, #D9534F 100%);
+  /* background: linear-gradient(180deg, #A54584 0%, #EA8841 65.62%, #BC5467 94.79%, #D9534F 100%); */
+  background: linear-gradient(360deg, #7e504f 0%, #da5f5b 65.62%, #BC5467 94.79%, #5e5656 100%);
   -webkit-background-clip: text;
   color: transparent;
   line-height: 5rem;
@@ -451,7 +476,8 @@
   margin:  2rem 0 2rem 0;
 }
 .fotoAbout{
-  width: 40%;
+  width: 70%;
+  filter: drop-shadow(1px 2px 3px #000);
 }
 .liAbout li a{
   text-decoration: none;
@@ -489,7 +515,7 @@
   font-weight: bold;
   font-size: 2.8rem;
   text-align: center;
-  background: linear-gradient(180deg, #A54584 0%, #EA8841 65.62%, #BC5467 94.79%, #D9534F 100%);
+  background: linear-gradient(360deg, #7e504f 0%, #da5f5b 65.62%, #BC5467 94.79%, #5e5656 100%);
   -webkit-background-clip: text;
   color: transparent;
   line-height: 4rem;
@@ -523,7 +549,7 @@
   font-weight: bold;
   font-size: 2rem;
   text-align: center;
-  background: linear-gradient(180deg, #A54584 0%, #EA8841 65.62%, #BC5467 94.79%, #D9534F 100%);
+  background: linear-gradient(360deg, #7e504f 0%, #da5f5b 65.62%, #BC5467 94.79%, #5e5656 100%);
   -webkit-background-clip: text;
   color: transparent;
   line-height: 4rem;
@@ -599,6 +625,9 @@
     line-height: 4rem;
     margin: 0 0 0 0;
   }  
+  .iconLandingContBtn{
+    flex-direction: row;
+  }
   .greenIni{
     font-size: 4rem;
   }
@@ -607,13 +636,19 @@
     margin: 0 0 0 0;
   }
   .landingText{
-    font-size: 4rem;
+    font-size: 3rem;
+  }
+  .iconLanding{
+    max-width: 20%;
   }
   .contWelcome{
     flex-direction:row;
   }
   .buttonLandW button{
     width: 50%;
+  }
+  .pagoImg{
+    width: 35%;
   }
   /*footer styles */
    .footercont ul{
@@ -661,7 +696,7 @@
                           "prod  pri";
    
   }
-  /**/
+  /*page about*/
   .contAboutPro{
     display: flex;
     flex-direction: row;
@@ -711,6 +746,10 @@
  .titleAbout{
    font-size:6rem;
  }
+ .finalMessCont{
+  justify-content: space-evenly;
+ }
+ /*page not found*/
  .notFoundImg{
   width: 37%;
 }
@@ -736,6 +775,9 @@
   }
   .fondoMain{
     width: 100%;
+  }
+  .landingText{
+    font-size: 4rem;
   }
   .productTitlCont{
     min-height: 0rem;

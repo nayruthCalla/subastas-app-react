@@ -27,10 +27,11 @@ const Products = ({setDataD}) => {
   },[])
   return (
     <section className = {styles.productsCont}>
-      <div className = {styles.contWelcome}>
+      <div className = {styles.contWelcome}>      
         <div>
+        <h1 className={styles.titleProdWel}>Cada producto tiene un tiempo limitado</h1>
           <h2 className = {styles.title}>¡POR NAVIDAD Y AÑO NUEVO!</h2>
-          <p className = {styles.titlePr}>Aprovecha estos últimos días para comprar</p>          
+          <p className = {styles.titlePr}>Aprovecha estos últimos días para comprar</p>        
         </div>
         <figure>
           <img className = {styles.imgProd} src={icon} alt=""/>
