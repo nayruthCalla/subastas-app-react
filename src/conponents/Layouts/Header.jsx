@@ -11,15 +11,21 @@ const Header = () => {
       </Link>      
       <nav className={styles.headerNav}>
         <ul className={styles.ulContainer}>
-          <li className={styles.liHeader}>            
-            <Link to = "/">INICIO</Link>
-          </li>
-          <li className={styles.liHeader}>            
-            <Link to = "/products">PRODUCTOS</Link>
-          </li>
-          <li className={styles.liHeader}>            
-            <Link to = "/about">SOBRE MI</Link>
-          </li>
+        <Link to = "/">
+            <li className={styles.liHeader}>            
+            INICIO
+            </li>
+          </Link>
+          <Link to = "/products">
+            <li className={styles.liHeader}>            
+            PRODUCTOS
+            </li>
+          </Link>
+          <Link to = "/about">
+            <li className={styles.liHeader}>            
+              SOBRE MI
+            </li>
+          </Link>
         </ul>
       </nav>
     </div>
