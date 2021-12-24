@@ -17,7 +17,7 @@ export const ProductProvider = ({ children }) => {
     try {
       const res = await axios.get("products");
       setProductContex(res.data);
-      console.log(res.data);
+      // console.log(res.data);
     } catch (e) {
       // console.log(e)
     }
