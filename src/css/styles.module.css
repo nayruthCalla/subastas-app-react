@@ -705,9 +705,7 @@
   .buttonContProd{
     margin-left: 1rem;
   }
-  .productDetailCont .DividingLineCont{
-    display: none;
-  }
+  
   .headerProdDet{
     grid-area: header;
   }
@@ -724,7 +722,9 @@
   }
   .productDetailCont{   
     display: grid;
-     grid-template-areas: "header  header"
+     grid-template-areas:
+                          "header  header"
+                          ". ."
                           "prod  pri";
    
   }
