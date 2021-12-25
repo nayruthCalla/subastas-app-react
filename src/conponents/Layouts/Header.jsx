@@ -1,8 +1,9 @@
-import { Link } from "react-router-dom";
+import { Link, Outlet } from "react-router-dom";
 import styles from '../../css/styles.module.css';
 
 const Header = () => {
   return (
+    <>
     <div className ={styles.headerConatiner}>
       <Link to = "/">
         <h1 className = {styles.headerTitle}>
@@ -20,7 +21,7 @@ const Header = () => {
             <li className={styles.liHeader}>            
             PRODUCTOS
             </li>
-          </Link>
+          </Link>      <Outlet />
           <Link to = "/about">
             <li className={styles.liHeader}>            
               SOBRE MI
@@ -29,6 +30,8 @@ const Header = () => {
         </ul>
       </nav>
     </div>
+    <Outlet/>
+    </>
   )
 };
 

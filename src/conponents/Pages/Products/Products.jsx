@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import { Outlet } from "react-router-dom";
 import axios from '../../../utils/axios'
 import styles from '../../../css/styles.module.css';
 import CardTemplate from './CardTemplate/CardTemplate';
@@ -26,6 +27,7 @@ const Products = ({setDataD}) => {
     listProducts();
   },[])
   return (
+    <>
     <section className = {styles.productsCont}>
       <div className = {styles.contWelcome}>      
         <div>
@@ -65,6 +67,8 @@ const Products = ({setDataD}) => {
           ))}
       </div>      
     </section>
+    <Outlet/> 
+    </>
   )
 };
 

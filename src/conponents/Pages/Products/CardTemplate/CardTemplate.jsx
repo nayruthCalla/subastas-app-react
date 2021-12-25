@@ -65,7 +65,7 @@ const CardTemplate = ({
       <CardBody productImg = {imgProduct} rate = {rating.rate} count = {rating.count} productTitle = {productTitle} price = {price}/> 
       <DividingLine/>
       <div className = {styles.buttonCont}>
-        <Link to = "/detail">
+        <Link to={`/products/${ban}`}>
           <DetailButton text = "VER DETALLE" flag = {timeCard} handleClick = {handleClick} />
         </Link>
       </div>   

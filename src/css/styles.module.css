@@ -311,12 +311,27 @@
   color: var(--alert-color);
   width: 3rem;
   height: 3rem;
-  margin: 0 1rem 0 0;  
+  margin: 2.5px 1rem 0 0;  
+}
+.sadIcon{
+  color: var(--alert-color);
+  width: 2.5rem;
+  height: 2rem;
+  margin: 0.7rem 1rem 0 0; 
 }
 .timeText{
   font-family: var(--principal-font);
   color: var(--alert-color);
   font-size: 4rem;
+  line-height: 37px;
+  font-style: normal;
+  font-weight: normal;
+  margin: 0 0.5rem 0 0;  
+}
+.timeTextFinsh{
+  font-family: var(--principal-font);
+  color: var(--alert-color);
+  font-size: 2rem;
   line-height: 37px;
   font-style: normal;
   font-weight: normal;
@@ -674,7 +689,25 @@
 
   .buttonContLang{
     width:50%;
-  }  
+  } 
+  .titlePrdDet{
+    margin-left: 0;
+  }
+  .descPrdDet{
+    margin-left: 0;
+  }
+  .titlePrdDet{
+    margin-left: 0;
+  }
+  .styles_descPrdDet{
+    margin-left: 0;
+  }
+  .buttonContProd{
+    margin-left: 1rem;
+  }
+  .productDetailCont .DividingLineCont{
+    display: none;
+  }
   .headerProdDet{
     grid-area: header;
   }
@@ -691,8 +724,7 @@
   }
   .productDetailCont{   
     display: grid;
-     grid-template-areas: "header header"
-                          ".  ."
+     grid-template-areas: "header  header"
                           "prod  pri";
    
   }

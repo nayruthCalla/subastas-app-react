@@ -18,13 +18,12 @@ const App = () => {
       <Header />
       <Routes>
         <Route path="/" element={<Landing />} />
-        <Route path="/products" element={<Products setDataD={setDataD} />} />
-
+        <Route path="products" element={<Products setDataD={setDataD} />} />
         <Route
-          path="/detail"
+          path="products/:detail"
           element={<ProductDetail productDetail={dataD} />}
         />
-        <Route path="/about" element={<About />} />
+        <Route path="about" element={<About />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />
