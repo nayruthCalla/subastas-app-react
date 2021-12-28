@@ -55,7 +55,7 @@ const Products = ({setDataD}) => {
             <CardTemplate            
             key={index}
             imgProduct = {image}
-            timeFin = {randomDate(new Date(), new Date(2022, 0, 1))}
+            timeFin = {randomDate(new Date(), new Date(2022, 1, 1))}
             rating = {rating}
             productTitle = {title}
             price = {price}
