@@ -1,5 +1,4 @@
 import { useState, useEffect } from 'react'
-import PropTypes from 'prop-types'
 import styles from '../../../css/styles.module.css'
 import HeaderProductDetail from './HeaderProductDetail'
 import DividingLine from '../../Layouts/DividingLine'
@@ -73,8 +72,3 @@ const ProductDetail = ({ productDetail }) => {
 }
 
 export default ProductDetail
-
-ProductDetail.propTypes = {
-  // eslint-disable-next-line react/forbid-prop-types
-  productDetail: PropTypes.object.isRequired,
-}

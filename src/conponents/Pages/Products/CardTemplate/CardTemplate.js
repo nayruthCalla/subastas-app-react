@@ -2,7 +2,7 @@
 /* eslint-disable react/require-default-props */
 import { useState, useEffect } from 'react'
 import PropTypes from 'prop-types'
-import { Link } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 import CardHeader from './CardHeader'
 import CardBody from './CardBody'
 import DividingLine from '../../../Layouts/DividingLine'
@@ -23,6 +23,8 @@ const CardTemplate = ({
 }) => {
   const [timeCard, settimeCard] = useState({})
   const [timeDet, setTimeDet] = useState()
+  const navigate = useNavigate()
+
   const randomTime = ban % 2 ? timeFin : new Date(Date.now() + 1 * 60 * 1000)
 
   useEffect(() => {
@@ -62,6 +64,7 @@ const CardTemplate = ({
       description,
       timeDetail: timeDet,
     })
+    navigate(`/products/${ban}`)
   }
   return (
     <div className={styles.productsContCard}>
@@ -80,13 +83,11 @@ const CardTemplate = ({
       />
       <DividingLine />
       <div className={styles.buttonCont}>
-        <Link to={`/products/${ban}`}>
-          <DetailButton
-            text="VER DETALLE"
-            flag={timeCard}
-            handleClick={handleClick}
-          />
-        </Link>
+        <DetailButton
+          text="VER DETALLE"
+          flag={timeCard}
+          handleClick={handleClick}
+        />
       </div>
     </div>
   )
@@ -107,3 +108,5 @@ CardTemplate.propTypes = {
   description: PropTypes.string,
   setDataDetail: PropTypes.func,
 }
+
+// <Link to={`/products/${ban}`}>

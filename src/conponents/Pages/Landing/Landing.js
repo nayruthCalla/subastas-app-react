@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 import styles from '../../../css/styles.module.css'
 import Button from '../../Layouts/Button'
 import pago from '../../../assets/pago.png'
@@ -8,6 +8,11 @@ import bag from '../../../assets/bag.png'
 import navidad from '../../../assets/navidad-as.png'
 
 const Landing = () => {
+  const navigate = useNavigate()
+
+  const handleClick = () => {
+    navigate('/products')
+  }
   return (
     <section className={styles.landingCont}>
       <div className={styles.main}>
@@ -37,9 +42,9 @@ const Landing = () => {
             <span className={styles.yellow}>E</span>L
             <span className={styles.red}> !</span>
           </h2>
-          <Link to="/products" className={styles.buttonLandW}>
-            <Button text="IR A COMPRAR" />
-          </Link>
+          <div className={styles.buttonContainer}>
+            <Button text="IR A COMPRAR" handleClick={handleClick} />
+          </div>
         </div>
       </div>
       <div className={styles.container}>
@@ -68,9 +73,7 @@ const Landing = () => {
           </h2>
           <img src={pago} className={styles.pagoImg} alt="" />
           <div className={styles.buttonContLang}>
-            <Link to="/products">
-              <Button text="IR A COMPRAR" />
-            </Link>
+            <Button text="IR A COMPRAR" handleClick={handleClick} />
           </div>
         </figure>
       </div>

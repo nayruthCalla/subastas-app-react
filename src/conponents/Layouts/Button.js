@@ -1,8 +1,12 @@
 import styles from '../../css/styles.module.css'
 
-const Button = ({ text }) => {
+const Button = ({ text, handleClick }) => {
   return (
-    <button type="button" className={styles.generalButton}>
+    <button
+      type="button"
+      className={styles.generalButton}
+      onClick={handleClick}
+    >
       {text}
     </button>
   )

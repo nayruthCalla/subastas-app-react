@@ -107,6 +107,9 @@
 .auctionButton:disabled{
   background: #ccc;
 }
+.buttonContainer{
+  width: 50%;
+}
 /*++++++++ LINE +++++++++*/
 .DividingLineCont{
   background: rgba(121, 119, 112, 0.35);;
@@ -796,11 +799,12 @@
 
 @media screen and (min-width: 1024px) {
    .productsContCard{
-    width: 30rem;
-    
+    width: 30rem;    
   }
   .cardTemplateCont{
     max-width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
   }
   .fondoMain{
     max-height:100vh;
@@ -812,7 +816,7 @@
     font-size: 4rem;
   }
   .productTitlCont{
-    min-height: 0rem;
+    min-height: 4rem;
    }
    .buttonContProd{
      justify-content: center;
