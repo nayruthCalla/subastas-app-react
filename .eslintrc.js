@@ -14,6 +14,7 @@ module.exports = {
   plugins: ["react"],
   rules: {
     "react/prop-types": "off",
+    "react/forbid-prop-types": "off",
     "react/jsx-filename-extension": "off",
     "eslint-disable-next-line": "off",
     "arrow-body-style": "off",

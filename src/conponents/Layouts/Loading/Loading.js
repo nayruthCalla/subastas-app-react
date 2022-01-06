@@ -1,4 +1,4 @@
-import loading from './loading.module.css';
+import loading from './loading.module.css'
 
 const Loading = () => {
   return (
@@ -8,7 +8,7 @@ const Loading = () => {
       <div />
       <div />
     </div>
-  );
-};
+  )
+}
 
-export default Loading;
+export default Loading
