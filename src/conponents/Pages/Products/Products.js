@@ -1,28 +1,38 @@
-import { useState, useEffect } from 'react'
-import PropTypes from 'prop-types'
+import { useEffect } from 'react'
+import { useSelector, useDispatch } from 'react-redux'
 import { Outlet } from 'react-router-dom'
-import axios from '../../../utils/axios'
+// import axios from '../../../utils/axios'
 import styles from '../../../css/styles.module.css'
 import CardTemplate from './CardTemplate/CardTemplate'
 import { randomDate } from '../../../utils/utilities'
 import icon from '../../../assets/papa-noel.png'
 import Loading from '../../Layouts/Loading/Loading'
+import { getallProducts } from '../../../store/action'
 
 const Products = ({ setDataD }) => {
-  const [products, setProducts] = useState([])
-  const [loading, setLoading] = useState(false)
+  const products = useSelector((state) => state.products)
+  const loading = useSelector((state) => state.isloading)
+  // const [products, setProducts] = useState([])
+  // const [loading, setLoading] = useState(false)
 
-  useEffect(() => {
-    const listProducts = async () => {
-      try {
-        const res = await axios.get('products')
-        setProducts(res.data)
-        setLoading(true)
-      } catch (e) {
-        // console.log(e)
-      }
-    }
-    listProducts()
+  const dispatch = useDispatch()
+  console.log(loading, products)
+  useEffect(async () => {
+    // getallProducts(dispatch)
+    dispatch(getallProducts())
+    // setLoading(true)
+
+    // const listProducts = async () => {
+    //   try {
+    //     // const res = await axios.get('products')
+    //     // setProducts(res.data)
+    //     getallProducts(dispatch)
+    //     setLoading(true)
+    //   } catch (e) {
+    //     console.log(e)
+    //   }
+    // }
+    // listProducts()
   }, [])
   return (
     <>
@@ -76,7 +86,3 @@ const Products = ({ setDataD }) => {
 }
 
 export default Products
-
-Products.propTypes = {
-  setDataD: PropTypes.func.isRequired,
-}

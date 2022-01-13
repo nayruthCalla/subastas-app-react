@@ -1,16 +1,18 @@
-import { BrowserRouter } from "react-router-dom";
-import ReactDOM from "react-dom";
-import "./css/index.css";
-import App from "./conponents/App";
+import { BrowserRouter } from 'react-router-dom'
+import ReactDOM from 'react-dom'
+import { Provider } from 'react-redux'
+import './css/index.css'
+import App from './conponents/App'
+import store from './store'
 
 // Traer productProvider
-import { ProductProvider } from "./context/Product/ProductContext";
+// import { ProductProvider } from "./context/Product/ProductContext";
 
 ReactDOM.render(
   <BrowserRouter>
-    <ProductProvider>
+    <Provider store={store}>
       <App />
-    </ProductProvider>
+    </Provider>
   </BrowserRouter>,
-  document.getElementById("root")
-);
+  document.getElementById('root')
+)

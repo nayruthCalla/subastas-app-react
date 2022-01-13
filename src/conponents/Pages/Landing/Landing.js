@@ -1,3 +1,5 @@
+/* eslint-disable jsx-a11y/control-has-associated-label */
+/* eslint-disable react/jsx-no-comment-textnodes */
 import { useNavigate } from 'react-router-dom'
 import styles from '../../../css/styles.module.css'
 import Button from '../../Layouts/Button'

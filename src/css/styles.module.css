@@ -376,6 +376,7 @@
   line-height: 21px;
   color: #3E3F3A;
   margin: 1rem 0 0 3.5rem;
+  
 }
 .productPrice{
   margin: 0 0 0 3.5rem;
@@ -677,6 +678,9 @@
   .footercont ul li {
   }
   /*products cards styles */
+  .headerCont{
+    min-height: 42px;
+  }
   .cardTemplateCont{
     display: flex;
     flex-wrap: wrap;
@@ -686,8 +690,12 @@
     width: 45%;
     border-radius:0.5rem;
   }
-  .productTitlCont{
-    min-height: 7rem;
+  .productTitlCont{   
+  }
+  .productTitl{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
   }
 
   .buttonContLang{
@@ -716,6 +724,7 @@
     grid-area: prod;
     margin: 0 0 0 5rem;
     justify-self: center;
+    max-width: 40rem;
   }
   .contDetailF{
     grid-area: pri;
@@ -816,7 +825,6 @@
     font-size: 4rem;
   }
   .productTitlCont{
-    min-height: 4rem;
    }
    .buttonContProd{
      justify-content: center;
